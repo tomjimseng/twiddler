@@ -1,0 +1,68 @@
+/* twiddler.css */
+
+body {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  padding: 5px;
+  background-color: #AAFF99;
+}
+header {
+  font: 18px/1.2 "Georgia", Helvetica, Arial, sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  color: black;
+  text-align: center;
+  text-shadow: 7px 1px 2px #CAC4CE;
+}
+
+header h2 {
+  background: #ddff57;
+  background: -webkit-linear-gradient(to right bottom, #FAFFF5, #ab85e8);
+  background:    -moz-linear-gradient(to right bottom, #FAFFF5, #ab85e8);
+  background:         linear-gradient(to right bottom, #FAFFF5, #ab85e8);
+  border-radius: 30px;
+  padding:20px;
+  margin:20px 0;
+  font-style: bold;
+  text-align: center;
+  -webkit-box-shadow: 13px -4px 8px 5px #000000;
+  box-shadow: 13px -4px 8px 5px #000000;
+}
+
+#content button {
+  background: black;
+  border-radius: 20px;
+  color: white;
+  font: 14px/1.4 "Georgia", Helvetica, Arial, sans-serif;
+  margin: 30px;
+}
+
+ul {
+  margin: 0;  
+  font: 16px/1.4 "Georgia", Helvetica, Arial, sans-serif;
+  color: black;
+  border: 8px solid #d738ff;
+  border-radius: 40px 40px 40px 40px;
+  overflow: auto;
+  background-color: #B3FFF2;
+}
+
+div {
+  border-radius: 30px;
+  padding-left: 1px;
+  margin: 10px;
+  list-style-type: none;
+}
+
+div:hover {
+	background-color: yellow;
+}
+
+span {
+  float: right;
+  padding: 0 10px;
+}
